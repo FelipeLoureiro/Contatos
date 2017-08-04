@@ -18,7 +18,7 @@ A prova terá inicio as 18:00 do dia 04/Agosto até 23:59 do dia 06/Agosto, resa
 
 # Método de Avaliação da Prova
 
-Será avaliado a legibilidade do código, organização de arquivos, utilização de algum framework PHP e/ou JavaScript, possuir testes automatizados.
+Será avaliado a legibilidade do código, organização de arquivos, utilização de algum framework PHP e/ou JavaScript, caso implemente testes automatizados será considerado como pontos extras.
 
 O canditado terá a possibilidade de adicionar funcionalidades além das pedidas na prova e isto será avaliado também, mas não é obrigatório ter funcionalidades extras.
 
