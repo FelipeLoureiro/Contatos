@@ -11,6 +11,7 @@
     <h5>{{$page->nome}}</h5>
     <h5>{{$page->telefone}}</h5>
     <h5>{{$page->email}}</h5>
+    <h5>{{$page->categoria}}</h5>
 
     {!! $page->body !!}
 

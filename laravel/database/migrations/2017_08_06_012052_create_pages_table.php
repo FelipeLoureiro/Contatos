@@ -18,9 +18,7 @@ class CreatePagesTable extends Migration
             $table->string('nome', 100);
             $table->string('telefone', 100);
             $table->string('email', 100);
-            /*$table->string('title', 100);
-            $table->string('url', 100);
-            $table->longText('body');*/
+            $table->string('categoria');
             $table->timestamps();
         });
     }

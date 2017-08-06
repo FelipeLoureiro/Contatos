@@ -6,6 +6,7 @@
         @include('admin.pages.form')
     </form>
 
-    <a href="{{route('pages.index')}}" class="btn btn-xs btn-default">Voltar</a>
+    <a href="{{route('pages.index')}}" class="btn btn-xs btn-primary">Voltar</a>
+
 @endcomponent
 

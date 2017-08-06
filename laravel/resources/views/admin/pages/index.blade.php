@@ -15,6 +15,7 @@
         <th>Nome</th>
         <th>Telefone</th>
         <th>E-mail</th>
+        <th>Categoria</th>
         <th>Ações</th>
 
     </tr>
@@ -22,10 +23,11 @@
     <tbody>
     @foreach($pages as $page)
     <tr >
-        <td >{{$page->id}}</td>
+        <td>{{$page->id}}</td>
         <td>{{$page->nome}}</td>
         <td>{{$page->telefone}}</td>
         <td>{{$page->email}}</td>
+        <td>{{$page->categoria}}</td>
         <td><a href="{{route('pages.show', $page->id)}}" class="btn btn-primary ">
                 <span class="glyphicon glyphicon-pencil"></span>
             </a>
