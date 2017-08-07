@@ -3,11 +3,26 @@
     @slot('title')  @endslot
     @slot('description')<a>Cadastrados</a>@endslot
 
+    {{--Buscar--}}
+    <p class="pull-right">
+    <div class="row">
+        {{--Inserir--}}
+        <div class="btn-group pull-right" role="group"  aria-label="...">
+            <a href="{{route('pages.create')}}" class="btn btn-primary ">Inserir</a>
+        </div>
+        {{--Fim--}}
+        <div class="col-lg-3">
+            <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Buscar</button>
+      </span>
+                <input  type="text" class="form-control" placeholder="">
 
-
-    <div class="btn-group btn-group-justified" role="group"  aria-label="...">
-    <a href="{{route('pages.create')}}" class="btn btn-primary ">Inserir</a>
+            </div>
+        </div>
     </div>
+    </p>
+
 <table class="table table-houver">
     <thead>
     <tr >

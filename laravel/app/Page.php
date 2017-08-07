@@ -9,4 +9,5 @@ class Page extends Model
     protected $fillable = [
         'nome', 'telefone', 'email', 'categoria'
     ];
+
 }

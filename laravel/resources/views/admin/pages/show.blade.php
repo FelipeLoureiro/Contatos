@@ -8,6 +8,7 @@
             Criado em {{$page->created_at}} | Atualizado em {{$page->updated_at}}
         </small>
     </p>
+
     <h5>{{$page->nome}}</h5>
     <h5>{{$page->telefone}}</h5>
     <h5>{{$page->email}}</h5>
